@@ -21,7 +21,7 @@ class WaterFallVC: UICollectionViewController {
         
 
         super.viewDidLoad()
-        // MARK: - 基本配置
+        // MARK: - 基本配置 我们开始了
         let layout = collectionView.collectionViewLayout as! CHTCollectionViewWaterfallLayout
         layout.columnCount = KWaterFallcolumnCount
         layout.minimumColumnSpacing = KWaterPadding
