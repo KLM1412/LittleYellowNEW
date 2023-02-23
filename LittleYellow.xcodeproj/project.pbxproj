@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07446D8429A594F20075F900 /* WaterFallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07446D8329A594F20075F900 /* WaterFallVC.swift */; };
+		07446D8A29A5B0000075F900 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07446D8929A5B0000075F900 /* WaterfallCell.swift */; };
 		0773A9FC2829050800EBD179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773A9FB2829050800EBD179 /* AppDelegate.swift */; };
 		0773A9FE2829050800EBD179 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773A9FD2829050800EBD179 /* SceneDelegate.swift */; };
-		0773AA002829050800EBD179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773A9FF2829050800EBD179 /* ViewController.swift */; };
 		0773AA032829050800EBD179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0773AA012829050800EBD179 /* Main.storyboard */; };
 		0773AA062829050800EBD179 /* LittleYellow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0773AA042829050800EBD179 /* LittleYellow.xcdatamodeld */; };
 		0773AA082829050900EBD179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0773AA072829050900EBD179 /* Assets.xcassets */; };
 		0773AA0B2829050900EBD179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0773AA092829050900EBD179 /* LaunchScreen.storyboard */; };
+		07FDF3802934BAC800A9EF81 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDF37F2934BAC800A9EF81 /* HomeVC.swift */; };
+		07FDF384293500D700A9EF81 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDF383293500D700A9EF81 /* FollowVC.swift */; };
+		07FDF3862935013800A9EF81 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDF3852935013800A9EF81 /* DiscoveryVC.swift */; };
+		07FDF3882935015B00A9EF81 /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDF3872935015B00A9EF81 /* NearbyVC.swift */; };
+		07FDF38A2935066100A9EF81 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDF3892935066100A9EF81 /* Constans.swift */; };
+		0F3064023AEA49A4E56CB24F /* Pods_LittleYellow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614C7D665526F731FCECF2B8 /* Pods_LittleYellow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07446D8329A594F20075F900 /* WaterFallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallVC.swift; sourceTree = "<group>"; };
+		07446D8929A5B0000075F900 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		0773A9F82829050800EBD179 /* LittleYellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleYellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0773A9FB2829050800EBD179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0773A9FD2829050800EBD179 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0773A9FF2829050800EBD179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0773AA022829050800EBD179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0773AA052829050800EBD179 /* LittleYellow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleYellow.xcdatamodel; sourceTree = "<group>"; };
 		0773AA072829050900EBD179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0773AA0A2829050900EBD179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0773AA0C2829050900EBD179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FDF37F2934BAC800A9EF81 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		07FDF383293500D700A9EF81 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		07FDF3852935013800A9EF81 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		07FDF3872935015B00A9EF81 /* NearbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
+		07FDF3892935066100A9EF81 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		614C7D665526F731FCECF2B8 /* Pods_LittleYellow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleYellow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFED9B08854A16D8CB6BD27F /* Pods-LittleYellow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleYellow.debug.xcconfig"; path = "Target Support Files/Pods-LittleYellow/Pods-LittleYellow.debug.xcconfig"; sourceTree = "<group>"; };
+		F9CDE23F7235ED20C84C5791 /* Pods-LittleYellow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleYellow.release.xcconfig"; path = "Target Support Files/Pods-LittleYellow/Pods-LittleYellow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3064023AEA49A4E56CB24F /* Pods_LittleYellow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				0773A9FA2829050800EBD179 /* LittleYellow */,
 				0773A9F92829050800EBD179 /* Products */,
+				611375F54BFFD13F7CD186E5 /* Pods */,
+				35DDD847C6FA4756B5C6218C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +79,45 @@
 			children = (
 				0773A9FB2829050800EBD179 /* AppDelegate.swift */,
 				0773A9FD2829050800EBD179 /* SceneDelegate.swift */,
-				0773A9FF2829050800EBD179 /* ViewController.swift */,
+				07446D8329A594F20075F900 /* WaterFallVC.swift */,
+				07446D8929A5B0000075F900 /* WaterfallCell.swift */,
 				0773AA012829050800EBD179 /* Main.storyboard */,
+				07FDF38B2935084500A9EF81 /* Home */,
+				07FDF3892935066100A9EF81 /* Constans.swift */,
 				0773AA072829050900EBD179 /* Assets.xcassets */,
 				0773AA092829050900EBD179 /* LaunchScreen.storyboard */,
 				0773AA0C2829050900EBD179 /* Info.plist */,
 				0773AA042829050800EBD179 /* LittleYellow.xcdatamodeld */,
 			);
 			path = LittleYellow;
+			sourceTree = "<group>";
+		};
+		07FDF38B2935084500A9EF81 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				07FDF37F2934BAC800A9EF81 /* HomeVC.swift */,
+				07FDF3852935013800A9EF81 /* DiscoveryVC.swift */,
+				07FDF383293500D700A9EF81 /* FollowVC.swift */,
+				07FDF3872935015B00A9EF81 /* NearbyVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		35DDD847C6FA4756B5C6218C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				614C7D665526F731FCECF2B8 /* Pods_LittleYellow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		611375F54BFFD13F7CD186E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFED9B08854A16D8CB6BD27F /* Pods-LittleYellow.debug.xcconfig */,
+				F9CDE23F7235ED20C84C5791 /* Pods-LittleYellow.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0773AA0F2829050900EBD179 /* Build configuration list for PBXNativeTarget "LittleYellow" */;
 			buildPhases = (
+				3A480205CF4912BFE94269D0 /* [CP] Check Pods Manifest.lock */,
 				0773A9F42829050800EBD179 /* Sources */,
 				0773A9F52829050800EBD179 /* Frameworks */,
 				0773A9F62829050800EBD179 /* Resources */,
+				A68B4B4C7B19C558B7D0028E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +188,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A480205CF4912BFE94269D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleYellow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68B4B4C7B19C558B7D0028E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleYellow/Pods-LittleYellow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleYellow/Pods-LittleYellow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittleYellow/Pods-LittleYellow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0773A9F42829050800EBD179 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0773AA002829050800EBD179 /* ViewController.swift in Sources */,
 				0773A9FC2829050800EBD179 /* AppDelegate.swift in Sources */,
+				07FDF3802934BAC800A9EF81 /* HomeVC.swift in Sources */,
+				07446D8A29A5B0000075F900 /* WaterfallCell.swift in Sources */,
+				07FDF38A2935066100A9EF81 /* Constans.swift in Sources */,
+				07FDF384293500D700A9EF81 /* FollowVC.swift in Sources */,
 				0773A9FE2829050800EBD179 /* SceneDelegate.swift in Sources */,
 				0773AA062829050800EBD179 /* LittleYellow.xcdatamodeld in Sources */,
+				07FDF3862935013800A9EF81 /* DiscoveryVC.swift in Sources */,
+				07446D8429A594F20075F900 /* WaterFallVC.swift in Sources */,
+				07FDF3882935015B00A9EF81 /* NearbyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +386,7 @@
 		};
 		0773AA102829050900EBD179 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFED9B08854A16D8CB6BD27F /* Pods-LittleYellow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,11 +395,14 @@
 				DEVELOPMENT_TEAM = W6ZUS2YRR4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittleYellow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "小黄书";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,12 +412,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0773AA112829050900EBD179 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CDE23F7235ED20C84C5791 /* Pods-LittleYellow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,11 +427,14 @@
 				DEVELOPMENT_TEAM = W6ZUS2YRR4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittleYellow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "小黄书";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +444,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
